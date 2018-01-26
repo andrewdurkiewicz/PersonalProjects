@@ -19,8 +19,7 @@ import java.text.NumberFormat;
 public class nameFlash extends JPanel
 {
     //set up the panel
-    private static final int FRAME_WIDTH  = 800;
-	private static final int FRAME_HEIGHT = 400;
+ 
     private JPanel panel;
     private JTextField text;
 
