@@ -2,7 +2,7 @@
 /* The program is tested on MS Visual C++ platform */
 #include <stdio.h>
 #pragma warning(disable : 4996) // Remove this line in Unix GCC environment
-void main() {
+int main(){
         printf("This is Andrew Durkiewicz's hw1 Assignment\n");
         printf("------------------------------------------");
         printf("\n");
@@ -29,5 +29,5 @@ void main() {
           printf("----------------------------------------\n");
 
         }
-        
+        return 0;
 }

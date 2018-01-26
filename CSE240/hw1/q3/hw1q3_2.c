@@ -8,12 +8,14 @@ void main() {
         printf("\n");
 
         char ch;
-        for(int iterate = 0; iterate < 5; iterate++)
+        int iterate = 0;
+        while(iterate < 5)
         {
           printf("\n");
           printf("Enter character %i/5\n",iterate + 1);
           printf("----------------------------------------\n");
-          scanf(" %c",&ch);
+          ch = getchar();
+          getchar();
           int f, a = 10, b = 20;
           float a_f = 1.0 * a;
           float b_f = 1.0 * b;
@@ -27,7 +29,8 @@ void main() {
           default: printf("invalid operator\n");
           }
           printf("----------------------------------------\n");
+          iterate++;
 
         }
-        
+
 }
