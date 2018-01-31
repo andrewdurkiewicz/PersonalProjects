@@ -9,4 +9,3 @@ result = 0
 for i in x:
     result+=cumulative(3,.5,i)
     print(result.as_integer_ratio())
-    
